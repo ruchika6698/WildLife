@@ -9,6 +9,9 @@
     padding-right:5%;
     font-size:18px;
 }
+.menubar{
+    opacity:0;
+}
 .image{
     width:200px;
     height:50px;
@@ -18,4 +21,37 @@
     padding-right:4%;
     font-size:30px;
     color:#DCD4CC;
+}
+@media screen and (max-width: 1024px) {
+    .headerName{
+        padding-right:2%;
+    }
+    .image{
+        width:150px;
+    }
+    .icons{
+        padding-right:2%;
+    }
+}
+@media screen and (max-width: 768px) {
+	.headerName{
+        display:none;
+    }
+    .menubar{
+        opacity:1;
+        font-size:30px;
+    }
+    .icons{
+        display:none;
+    }
+}
+@media screen and (max-width: 414px) {
+	.image{
+        height:30px;
+    }
+}
+@media screen and (max-width: 320px) {
+	.image{
+        height:20px;
+    }
 }

@@ -18,3 +18,91 @@
     color:#DCD4CC;
     text-align: justify;
 }
+@media screen and (max-width: 1024px) {
+	.text{
+        margin-bottom:0%;
+    }
+    .SaveText{
+        margin-left:45%;
+        font-size: 120px;
+        line-height: 0.5em;
+    }
+    .wildCats{
+        margin-left:41%;
+    }
+}
+@media screen and (max-width: 768px) {
+	.text{
+        margin-left:0%;
+        display:flex;
+        justify-content:flex-start;
+    }
+    .SaveText{
+        margin-left:0%;
+        font-size: 80px;
+        line-height: 0.3em;
+    }
+    .wildCats{
+        margin-left:0%;
+    }
+}
+@media screen and (max-width: 540px) {
+	.text{
+        font-size: 15px;
+    }
+    .SaveText{
+        font-size: 50px;
+        line-height: 0.3em;
+    }
+    .wildCats{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 414px) {
+	.text{
+        font-size: 10px;
+    }
+    .SaveText{
+        font-size: 35px;
+        line-height: 0.4em;
+    }
+    .wildCats{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 375px) {
+	.text{
+        font-size: 8px;
+    }
+    .SaveText{
+        font-size: 30px;
+        line-height: 0.4em;
+    }
+    .wildCats{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+	.text{
+        font-size: 7px;
+    }
+    .SaveText{
+        font-size: 30px;
+        line-height: 0.7em;
+    }
+    .wildCats{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 280px) {
+	.text{
+        font-size: 5px;
+    }
+    .SaveText{
+        font-size: 25px;
+        line-height: 0.7em;
+    }
+    .wildCats{
+        font-size: 10px;
+    }
+}

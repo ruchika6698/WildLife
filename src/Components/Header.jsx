@@ -13,6 +13,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   return (
     <div className="header">
+      <div className="menubar">
+        <FontAwesomeIcon icon={faBars} size="xs" />
+      </div>
       <div className="image">
         <img
           className="d-block w-100"

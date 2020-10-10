@@ -1,0 +1,170 @@
+.Ourprojects{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:7%;
+    margin-bottom:7%;
+}
+.projectText{
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    color: transparent;
+    position:absolute;
+    margin-left:600px;
+}
+.Message{
+    font-size: 35px;
+    font-weight:bold;
+    z-index:1; 
+    display:flex;
+    justify-content:center;
+    margin-left:50px;
+}
+.Textinfo{
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    color:#4F4F4F;
+}
+.Imagediv{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.LionImage{
+    width:370px;
+    height:380px;
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Lions.jpg");
+    margin-right:30px;
+}
+.CheetahsImage{
+    width:370px;
+    height:380px;
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Cheetahs.jpg");
+    margin-right:30px;
+}
+.CubsImage{
+    width:370px;
+    height:380px;
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Tigercubs.jpg");
+}
+.Donatebutton{
+    color:#FFFFFF;
+    background-color:#FEBF1C;
+    border-color:#FEBF1C;
+    margin-top:300px;
+    margin-left:140px;
+    font-weight:bold;
+}
+.Donatebutton:hover{
+    background-color:#584F3D;
+    border-color:#584F3D;
+}
+.Animalname{
+    display:flex;
+    justify-content:center;
+    font-size:20px;
+    font-weight:bold;
+}
+.Animalname:hover{
+    color:#FEBF1C;
+}
+.amount{
+    display:flex;
+    justify-content:center;
+    color:#FEBF1C;
+}
+@media screen and (max-width: 1024px) {
+    .projectText{
+        margin-left:350px;
+    }
+    .LionImage{
+        width:300px;
+        margin-right:20px;
+    }
+    .CheetahsImage{
+        width:300px;
+        margin-right:20px;
+    }
+    .CubsImage{
+        width:300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .projectText{
+        margin-left:260px;
+    }
+    .LionImage{
+        width:220px;
+        margin-right:15px;
+    }
+    .CheetahsImage{
+        width:220px;
+        margin-right:15px;
+    }
+    .CubsImage{
+        width:220px;
+    }
+    .Donatebutton{
+        margin-left:90px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .projectText{
+        margin-left:150px;
+    }
+    .Imagediv{
+        display:flex;
+        flex-direction:column;
+        margin-bottom:50px;
+    }
+    .LionImage{
+        width:370px;
+        margin-right:0px;
+    }
+    .CheetahsImage{
+        width:370px;
+        margin-right:0px;
+        margin-top:50px;
+    }
+    .CubsImage{
+        width:370px;
+        margin-top:50px;
+    }
+    .Donatebutton{
+        margin-left:150px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .LionImage{
+        width:320px;
+    }
+    .CheetahsImage{
+        width:320px;
+    }
+    .CubsImage{
+        width:320px;
+    }
+    .Donatebutton{
+        margin-left:120px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .LionImage{
+        width:250px;
+    }
+    .CheetahsImage{
+        width:250px;
+    }
+    .CubsImage{
+        width:250px;
+    }
+    .Donatebutton{
+        margin-left:80px;
+    }
+}

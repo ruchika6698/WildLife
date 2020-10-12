@@ -1,0 +1,153 @@
+.Galary{
+    margin-top:5%;
+    margin-bottom:5%;
+    display:flex;
+    justify-content:center;
+}
+.Galarytext{
+    font-size: 70px;
+    letter-spacing: 0.01em;
+    line-height: 1em;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    color: transparent;
+    position:absolute;
+    margin-left:650px;
+}
+.Savedanimal{
+    font-size: 43px;
+    font-weight:bold;
+    margin-top:5px;
+    display:flex;
+    justify-content:center;
+}
+.Galary1{
+    width:1600px;
+    display:flex;
+    justify-content:space-between; 
+    flex-direction:row;
+}
+@mixin size(){
+    height:300px;
+    width:100%;
+    max-width:370px;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Animal1{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal1.jpg");
+    @include size();
+}
+.Animal2{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal2.jpg");
+    @include size();
+}
+.Animal3{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal3.jpg");
+    @include size();
+}
+.Animal4{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal4.jpg");
+    @include size();
+}
+.Animal5{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal5.jpg");
+    @include size();
+}
+.Animal6{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal6.jpg");
+    @include size();
+}
+.Animal7{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal7.jpg");
+    @include size();
+}
+.Animal8{
+    background-image: url("C:/Users/boss/wildlife/src/Assets/Animal8.jpg");
+    @include size();
+}
+.Zoom{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    color:#484848;
+    background-color:#FFFFFF;
+    border-color:#FFFFFF;
+    font-weight:bold;
+    opacity:0;
+}
+.Zoom:hover{
+    color:#484848;
+    background-color:#FFFFFF;
+    border-color:#FFFFFF;
+    opacity:1;
+    font-weight:bold;
+}
+@media screen and (max-width: 1024px) {
+    .Galarytext{
+        margin-left:320px;
+    }
+    .Galary1{
+        width:950px;
+    } 
+    .Animal1{
+        margin-right:5px;
+    }
+    .Animal2{
+        margin-right:5px;
+    }
+    .Animal4{
+        margin-left:5px;
+    }
+    .Animal5{
+        margin-right:5px;
+    }
+    .Animal6{
+        margin-right:5px;
+    }
+    .Animal8{
+        margin-left:5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Galarytext{
+        margin-left:220px;
+    }
+    .Galary1{
+        width:750px;
+    } 
+}
+@media screen and (max-width: 540px) {
+    .Galary1{
+        display:flex;
+        justify-content:center; 
+        flex-direction:column;
+        align-items:center;
+    }
+    .Animal1{
+        margin-right:0px;
+        margin-bottom:20px;
+    }
+    .Animal2{
+        margin-right:0px;
+        margin-bottom:20px;
+    }
+    .Animal4{
+        margin-left:0px;
+        margin-top:20px;
+    }
+    .Animal5{
+        margin-right:0px;
+        margin-bottom:20px;
+    }
+    .Animal6{
+        margin-right:0px;
+        margin-bottom:20px;
+    }
+    .Animal8{
+        margin-left:0px;
+        margin-top:20px;
+    }
+}

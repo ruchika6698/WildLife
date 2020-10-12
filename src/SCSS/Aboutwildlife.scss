@@ -1,0 +1,76 @@
+.Aboutwildlife{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    padding-top:10%;
+    padding-bottom:10%;
+    background-color:#323232;
+}
+.AboutDiv{
+    width:100%;
+    max-width:500px;
+}
+.aboutUs{
+    font-size: 70px;
+    letter-spacing: 0.01em;
+    line-height: 1em;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+    color: transparent;
+    position:absolute;
+    margin-left:100px;
+}
+.about{
+    font-size: 43px;
+    font-weight:bold;
+    margin-top:5px;
+    display:flex;
+    justify-content:center;
+    color:#FFFFFF;
+}
+.AboutInfo{
+    font-size: 20px;
+    text-align: justify;
+    color:#CBCBCB;
+}
+@media screen and (max-width: 1024px) {
+    .AboutDiv{
+        width:400px;
+    }
+    .About{
+        width:400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .AboutDiv{
+        width:350px;
+    }
+    .About{
+        width:350px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Aboutwildlife{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .aboutUs{
+        display:none;
+    }
+    .AboutDiv{
+        width:350px;
+    }
+    .About{
+        width:350px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .AboutDiv{
+        width:260px;
+    }
+    .About{
+        width:260px;
+    }
+}

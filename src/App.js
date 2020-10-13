@@ -9,6 +9,7 @@ import Galary from './Components/Galary'
 import Aboutwildlife from './Components/Aboutwildlife'
 import Workdetails from './Components/Workdetails'
 import Foundationdetails from './Components/Foundationdetails'
+import Latestnews from './Components/Latestnews'
 import Newsletter from './Components/Newsletter'
 import Footer from './Components/Footer'
 
@@ -25,6 +26,7 @@ function App() {
         <Aboutwildlife/>
         <Workdetails/>
         <Foundationdetails/>
+        <Latestnews/>
         <Newsletter/>
         <Footer/>
       </div>

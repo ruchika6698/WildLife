@@ -8,6 +8,8 @@ import Galary from './Components/Galary'
 import Aboutwildlife from './Components/Aboutwildlife'
 import Workdetails from './Components/Workdetails'
 import Foundationdetails from './Components/Foundationdetails'
+import Newsletter from './Components/Newsletter'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Aboutwildlife/>
         <Workdetails/>
         <Foundationdetails/>
+        <Newsletter/>
+        <Footer/>
       </div>
     </div>
   );

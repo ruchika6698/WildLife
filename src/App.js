@@ -11,6 +11,7 @@ import Workdetails from './Components/Workdetails'
 import Foundationdetails from './Components/Foundationdetails'
 import Latestnews from './Components/Latestnews'
 import Newsletter from './Components/Newsletter'
+import Partners from './Components/Partners'
 import Footer from './Components/Footer'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Foundationdetails/>
         <Latestnews/>
         <Newsletter/>
+        <Partners/>
         <Footer/>
       </div>
     </div>

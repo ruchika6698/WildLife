@@ -2,6 +2,8 @@ import React from "react";
 import "../SCSS/Header.scss";
 import WildLifeLogo from "./../Assets/WildLifeLogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import {
   faFacebook,
   faInstagram,
@@ -10,9 +12,28 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default function Header() {
+export default class Header extends React.Component{
+  state = {
+    color: 'transparent'
+  }
+    
+    listenScrollEvent = e => {
+        if (window.scrollY > 40) {
+          this.setState({color: '#444141'})
+        } else {
+          this.setState({color: 'transparent'})
+        }
+      }
+    
+      componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+      }
+
+  render() {
   return (
-    <div className="header">
+    <div>
+    <AppBar style={{ backgroundColor: this.state.color,}} elevation={0}>
+    <Toolbar className="header">
       <div className="menubar">
         <FontAwesomeIcon icon={faBars} size="xs" />
       </div>
@@ -41,6 +62,9 @@ export default function Header() {
       <div className="icons">
         <FontAwesomeIcon icon={faBars} size="xs" />
       </div>
+       </Toolbar>
+      </AppBar>
     </div>
   );
+  }
 }

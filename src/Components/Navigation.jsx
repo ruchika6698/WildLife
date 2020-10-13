@@ -3,7 +3,6 @@ import "../SCSS/Navigation.scss";
 import swiperslide1 from "./../Assets/swiperslide1.jpg";
 import swiperslide2 from "./../Assets/swiperslide2.jpg";
 import Carousel from "react-bootstrap/Carousel";
-import Header from './Header'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Navigation extends React.Component {
@@ -21,7 +20,6 @@ class Navigation extends React.Component {
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <Header/>
                     <div className="SaveText">SAVE</div>
                     <div className="wildCats">WILD CATS</div>
                     <div className="text">
@@ -40,7 +38,6 @@ class Navigation extends React.Component {
                   />
 
                   <Carousel.Caption>
-                    <Header/>
                     <div className="SaveText">MAKE</div>
                     <div className="wildCats">CATS SAFE</div>
                     <div className="text">

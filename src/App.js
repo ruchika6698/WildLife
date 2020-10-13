@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header'
 import Navigation from './Components/Navigation'
 import Donationform from './Components/Donationform'
 import Ourprojects from './Components/Ourprojects'
@@ -15,6 +16,7 @@ function App() {
   return (
     <div>
       <div>
+        <Header/>
         <Navigation/>
         <Donationform/>
         <Ourprojects/>

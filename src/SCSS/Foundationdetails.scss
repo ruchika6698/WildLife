@@ -1,0 +1,53 @@
+.Foundationdetails{
+    height:450px;
+    background-image: url("C:/Users/boss/wildlife/src/Assets/TigherBackground.jpg");
+    background-repeat: no-repeat;
+    background-size:1700px 435px;
+    display:flex;
+    justify-content:center;
+    filter: brightness(80%); 
+}
+.Foundationdiv{
+    width:1200px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    align-items:center;
+}
+.Speciesnumber{
+    font-size: 120px;
+    line-height: 1.08em;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #ffffff;
+    color: transparent;
+}
+.Speciesdetail{
+    font-size:18px;
+    font-weight:bold;
+    color:#FEBF1C;
+}
+@media screen and (max-width: 540px) {
+    .Foundationdetails{
+        height:400px !important;
+        background-size:700px 435px;
+    }
+    .Speciesnumber{
+        font-size: 80px;
+        line-height: 0.8em;
+        height:30px;
+        margin-bottom:7px;
+    }
+    .Speciesdetail{
+        margin-top:5px;
+        font-size:14px;
+    }
+    .Foundationdiv{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .speciesDiv{
+        margin-bottom:5px;
+    }
+}

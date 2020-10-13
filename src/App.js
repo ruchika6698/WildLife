@@ -6,6 +6,8 @@ import Ourprojects from './Components/Ourprojects'
 import Scenery from './Components/Scenery'
 import Galary from './Components/Galary'
 import Aboutwildlife from './Components/Aboutwildlife'
+import Workdetails from './Components/Workdetails'
+import Foundationdetails from './Components/Foundationdetails'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Scenery/>
         <Galary/>
         <Aboutwildlife/>
+        <Workdetails/>
+        <Foundationdetails/>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ export default function Ourprojects() {
       <div className="Imagediv">
       <div>
         <div className="LionImage">
-            <Button className="Donatebutton">DONATE</Button>
+            <div className="DonationButtons"><Button className="Donatebutton">DONATE</Button></div>
         </div>
         <br/>
         <div className="Animalname">
@@ -31,7 +31,7 @@ export default function Ourprojects() {
      </div>
      <div>
         <div className="CheetahsImage">
-            <Button className="Donatebutton">DONATE</Button>
+            <div className="DonationButtons"><Button className="Donatebutton">DONATE</Button></div>
         </div>
         <br/>
         <div className="Animalname">
@@ -45,7 +45,7 @@ export default function Ourprojects() {
 
     <div>
         <div className="CubsImage">
-            <Button className="Donatebutton">DONATE</Button>
+            <div className="DonationButtons"><Button className="Donatebutton">DONATE</Button></div>
         </div>
         <br/>
         <div className="Animalname">

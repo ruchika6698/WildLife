@@ -23,12 +23,15 @@
     display:flex;
     justify-content:center;
     margin-left:50px;
+    text-align: center ;
 }
 .Textinfo{
+    word-wrap: break-word !important;
     font-size:20px;
     display:flex;
     justify-content:center;
     color:#4F4F4F;
+    word-wrap: break-word;
 }
 .Imagediv{
     display:flex;
@@ -53,17 +56,28 @@
     height:380px;
     background-image: url("C:/Users/boss/wildlife/src/Assets/Tigercubs.jpg");
 }
+.DonationButtons{
+    width:370px;
+    height:380px;
+    padding-top:180px;
+    padding-bottom:180px;
+    opacity:0;
+}
+.DonationButtons:hover{
+    opacity:1;
+}
 .Donatebutton{
     color:#FFFFFF;
     background-color:#FEBF1C;
     border-color:#FEBF1C;
-    margin-top:300px;
+    margin-top:120px;
     margin-left:140px;
     font-weight:bold;
 }
 .Donatebutton:hover{
     background-color:#584F3D;
     border-color:#584F3D;
+    opacity:1;
 }
 .Animalname{
     display:flex;
@@ -116,7 +130,7 @@
 }
 @media screen and (max-width: 540px) {
     .projectText{
-        margin-left:150px;
+        margin-left:100px;
     }
     .Imagediv{
         display:flex;
@@ -138,6 +152,10 @@
     }
     .Donatebutton{
         margin-left:150px;
+    }
+    .Textinfo{
+        width:250px;
+        margin-left:18%;
     }
 }
 @media screen and (max-width: 375px) {

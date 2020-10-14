@@ -1,9 +1,9 @@
 .header{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-direction:row;
     align-items:center;
-    padding-top:2.5%;
+    padding-top:3%;
     padding-bottom:2.5%;
     height:50px;
 }
@@ -13,6 +13,7 @@ header.scrolled {
 .headerName{
     padding-right:3%;
     font-size:18px;
+    cursor: pointer;
 }
 .menubar{
     opacity:0;
@@ -26,6 +27,7 @@ header.scrolled {
     padding-right:2%;
     font-size:30px;
     color:#DCD4CC;
+    cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
     .headerName{

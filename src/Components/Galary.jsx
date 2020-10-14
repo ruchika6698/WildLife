@@ -9,8 +9,8 @@ export default function Galary() {
         <div className="Galarytext">GALLERY</div>
         <div className="Savedanimal">Saved Animals</div>
         <br/>
-        <div className="Textinfo">In our gallery, you can take a look at the photos of wild cats and other</div>
-        <div className="Textinfo">animals that we’ve rescued and helped since our first day.</div>
+        <div className="textInfo">In our gallery, you can take a look at the photos of wild cats and other</div>
+        <div className="textInfo">animals that we’ve rescued and helped since our first day.</div>
         <br/><br/>
         <div className="Galary1">
             <div className="Animal1"><Button className="Zoom">Zoom</Button></div>

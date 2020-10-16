@@ -1,3 +1,5 @@
+@import "./Style.scss";
+
 .Ourprojects{
     display:flex;
     justify-content:center;
@@ -12,7 +14,7 @@
     text-transform: uppercase;
     font-weight: 800;
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-    color: transparent;
+    color: $TransparentColor;
     position:absolute;
     margin-left:660px;
 }
@@ -34,8 +36,7 @@
     word-wrap: break-word;
 }
 .Imagediv{
-    display:flex;
-    flex-direction:row;
+    @include flex();
     align-items:center;
     justify-content:center;
 }
@@ -67,9 +68,9 @@
     opacity:1;
 }
 .Donatebutton{
-    color:#FFFFFF;
-    background-color:#FEBF1C;
-    border-color:#FEBF1C;
+    color:$WhiteColor;
+    background-color:$YellowColor;
+    border-color:$YellowColor;
     margin-top:120px;
     margin-left:140px;
     font-weight:bold;

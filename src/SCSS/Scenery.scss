@@ -1,7 +1,9 @@
+@import "./Style.scss";
+
 @mixin text(){
     font-size: 80px;
     line-height: 1.55556em;
-    color:#FFFFFF;
+    color:$WhiteColor;
     font-weight:600;
 }
 .Scenery{
@@ -15,8 +17,7 @@
     background-size:1700px 435px;
 }
 .Textdiv{
-    display:flex;
-    flex-direction:row;
+    @include flex();
     justify-content:center;
     width:800px;
 }
@@ -27,20 +28,20 @@
     @include text();
     padding-left:2%;
     padding-right:2%;
-    -webkit-text-stroke: 2px #ffffff;
-    color: transparent;
+    -webkit-text-stroke: 2px $WhiteColor;
+    color: $TransparentColor;
 }
 .Read{
-    background-color:#FFFFFF;
-    border-color:#FFFFFF;
-    color:black;
+    background-color:$WhiteColor;
+    border-color:$WhiteColor;
+    color:$BlackColor;
     padding:15px 25px 15px 25px;
     font-weight:bold;
 }
 .Read:hover{
-    background-color:#FEBF1C;
-    border-color:#FEBF1C;
-    color:#FFFFFF;
+    background-color:$YellowColor;
+    border-color:$YellowColor;
+    color:$WhiteColor;
 }
 @media screen and (max-width: 768px) {
     .Boldtext{

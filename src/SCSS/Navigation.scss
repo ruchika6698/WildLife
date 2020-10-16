@@ -1,10 +1,12 @@
+@import "./Style.scss";
+
 .SaveText{
     margin-left:40%;
     font-size: 150px;
     line-height: 1.08em;
     font-weight: 800;
-    -webkit-text-stroke: 2px #ffffff;
-    color: transparent;
+    -webkit-text-stroke: 2px $WhiteColor;
+    color: $TransparentColor;
 }
 .wildCats{
     margin-left:40%;
@@ -15,7 +17,7 @@
     margin-left:50%;
     margin-bottom:20%;
     font-size: 20px;
-    color:#DCD4CC;
+    color:$NavigationparagraphColor;
     text-align: justify;
 }
 @media screen and (max-width: 1024px) {

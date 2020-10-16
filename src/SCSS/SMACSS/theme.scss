@@ -1,0 +1,19 @@
+// variables
+$TransparentColor : transparent;
+$NavigationparagraphColor : #DCD4CC;
+$DarkGreyColor : #2D3134;
+$YellowColor : #FEBF1C;
+$WhiteColor : #FFFFFF;
+$BlackColor : black;
+$OffwhiteColor : #CBCBCB;
+$AboutwildLifeColor:#323232;
+$LightGreyColor : #424649;
+$FooterbackgroundColor : #343333;
+$FooterColor : #999992;
+$ZoombuttonColor : #484848;
+$LatestnewsColor : #323232;
+
+@mixin flex() {
+	display:flex;
+    flex-direction:row;
+}

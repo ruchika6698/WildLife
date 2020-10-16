@@ -85,19 +85,10 @@
     width:100%;
     opacity:0;
 }
-.Zoombutton:hover{
-    opacity:1;
-}
 .Zoom{
     height:100px;
     width:100px;
     border-radius:50px;
-    color:$ZoombuttonColor;
-    background-color:$WhiteColor;
-    border-color:$WhiteColor;
-    font-weight:bold;
-}
-.Zoom:hover{
     color:$ZoombuttonColor;
     background-color:$WhiteColor;
     border-color:$WhiteColor;

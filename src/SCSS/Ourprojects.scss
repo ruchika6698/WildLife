@@ -64,9 +64,6 @@
     padding-bottom:180px;
     opacity:0;
 }
-.DonationButtons:hover{
-    opacity:1;
-}
 .Donatebutton{
     color:$WhiteColor;
     background-color:$YellowColor;
@@ -75,19 +72,11 @@
     margin-left:140px;
     font-weight:bold;
 }
-.Donatebutton:hover{
-    background-color:#584F3D;
-    border-color:#584F3D;
-    opacity:1;
-}
 .Animalname{
     display:flex;
     justify-content:center;
     font-size:20px;
     font-weight:bold;
-}
-.Animalname:hover{
-    color:#FEBF1C;
 }
 .amount{
     display:flex;

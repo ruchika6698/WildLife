@@ -7,7 +7,7 @@ import GlobalWork from "./../Assets/GlobalWork.png";
 export default function Workdetails() {
   return (
     <div className="Workdetails">
-        <div className="Workdiv">
+        <div className="Qualifieddiv">
             <div className="workImage">
             <img
                 className="workIcon"
@@ -20,7 +20,7 @@ export default function Workdetails() {
             <br/>
             <div className="Teamdetails">We have gathered a team of highly qualified animal protection experts.</div>
         </div>
-        <div className="Workdiv">
+        <div className="Speciesdiv">
             <div className="workImage">
             <img
                 className="workIcon"
@@ -33,7 +33,7 @@ export default function Workdetails() {
             <br/>
             <div className="Teamdetails">Besides wild cats, we also aim to protect and save other species of wild animals.</div>
         </div>
-        <div className="Workdiv">
+        <div className="Globaldiv">
             <div className="workImage">
             <img
                 className="workIcon"

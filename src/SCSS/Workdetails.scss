@@ -1,5 +1,11 @@
 @import "./Style.scss";
 
+@mixin width() {
+	width:270px;
+    align-items:center;
+    position: relative;
+}
+
 .Workdetails{
     @include flex();
     justify-content:space-around;
@@ -14,6 +20,15 @@
 .Workdiv{
     width:270px;
     align-items:center;
+}
+.Qualifieddiv{
+    @include width();
+}
+.Speciesdiv{
+    @include width();
+}
+.Globaldiv{
+    @include width();
 }
 .Team{
     font-size:22px;

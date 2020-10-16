@@ -1,0 +1,52 @@
+@import "./theme.scss";
+
+.select:focus{
+    background-color:#FEBF1C;
+}
+.button:hover{
+    background-color:$WhiteColor;
+    border-color:$WhiteColor;
+    color:$YellowColor;
+}
+.list:hover{
+    color:$YellowColor;
+}
+.Zoombutton:hover{
+    opacity:1;
+}
+.Zoom:hover{
+    color:$ZoombuttonColor;
+    background-color:$WhiteColor;
+    border-color:$WhiteColor;
+    font-weight:bold;
+}
+.headerName:hover{
+    color:$YellowColor;
+}
+.Newstitle:hover{
+    color:$YellowColor;
+}
+.Subscribebutton:hover{
+    background-color:$WhiteColor;
+    border-color:$WhiteColor;
+    color:$YellowColor;
+}
+.DonationButtons:hover{
+    opacity:1;
+}
+.Donatebutton:hover{
+    background-color:#584F3D;
+    border-color:#584F3D;
+    opacity:1;
+}
+.Animalname:hover{
+    color:#FEBF1C;
+}
+.partner1:hover{
+    opacity:1;
+}
+.Read:hover{
+    background-color:$YellowColor;
+    border-color:$YellowColor;
+    color:$WhiteColor;
+}

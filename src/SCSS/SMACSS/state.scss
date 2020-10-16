@@ -33,11 +33,12 @@
 }
 .DonationButtons:hover{
     opacity:1;
+    transform: translate(-0%, 10%);
+    transition: all .3s;
 }
 .Donatebutton:hover{
     background-color:#584F3D;
     border-color:#584F3D;
-    opacity:1;
 }
 .Animalname:hover{
     color:#FEBF1C;

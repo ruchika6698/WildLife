@@ -77,6 +77,17 @@
     background-image: url("C:/Users/boss/wildlife/src/Assets/Animal8.jpg");
     @include size();
 }
+.Zoombutton{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    width:100%;
+    opacity:0;
+}
+.Zoombutton:hover{
+    opacity:1;
+}
 .Zoom{
     height:100px;
     width:100px;
@@ -85,13 +96,11 @@
     background-color:$WhiteColor;
     border-color:$WhiteColor;
     font-weight:bold;
-    opacity:0;
 }
 .Zoom:hover{
     color:$ZoombuttonColor;
     background-color:$WhiteColor;
     border-color:$WhiteColor;
-    opacity:1;
     font-weight:bold;
 }
 @media screen and (max-width: 1024px) {

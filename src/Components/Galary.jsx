@@ -13,17 +13,17 @@ export default function Galary() {
         <div className="textInfo">animals that we’ve rescued and helped since our first day.</div>
         <br/><br/>
         <div className="Galary1">
-            <div className="Animal1"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal2"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal3"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal4"><Button className="Zoom">Zoom</Button></div>
+            <div className="Animal1"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal2"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal3"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal4"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
         </div>
         <br/>
         <div className="Galary1">
-            <div className="Animal5"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal6"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal7"><Button className="Zoom">Zoom</Button></div>
-            <div className="Animal8"><Button className="Zoom">Zoom</Button></div>
+            <div className="Animal5"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal6"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal7"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
+            <div className="Animal8"><div className="Zoombutton"><Button className="Zoom">Zoom</Button></div></div>
         </div>
         <br/><br/>
     </div>

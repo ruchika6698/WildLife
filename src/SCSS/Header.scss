@@ -8,6 +8,32 @@
 .menubar{
     opacity:0;
 }
+.List{
+    background-color:#3C3C3C;
+    display:flex;
+    flex-direction:column;
+    height:790px;
+}
+.Divider{
+    color:#FFFFFF;
+}
+.Iconbutton{
+    border-color:#3C3C3C !important;
+    margin-left:45% !important;
+    padding-top:30px !important; 
+    padding-bottom:30px !important;
+}
+.Listitems{
+    color:$WhiteColor;
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+    padding-left:40px !important;
+}
+.Arroeicon{
+    color:$WhiteColor;
+    transition-delay: .1s;
+    transform: translateX(0);
+}
 .image{
     width:200px;
     height:50px;

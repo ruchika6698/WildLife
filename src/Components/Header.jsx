@@ -11,10 +11,28 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import IconButton from '@material-ui/core/IconButton';
+import ListItem from '@material-ui/core/ListItem';
 
-export default class Header extends React.Component {
+const styles = {
+  list: {
+    width: 500,
+  },
+  fullList: {
+    width: 'auto',
+  },
+};
+
+class Header extends React.Component {
   state = {
     color: "transparent",
+    right: false,
   };
 
   listenScrollEvent = (e) => {
@@ -28,8 +46,48 @@ export default class Header extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.listenScrollEvent);
   }
+  toggleDrawer = (side, open) => () => {
+    this.setState({
+      [side]: open,
+    });
+  };
 
   render() {
+    const { classes } = this.props;
+
+    const sideList = (
+      <div className={classes.list}>
+        <List className="List">
+          <ListItem>
+            <IconButton className="Iconbutton">
+            <ArrowBackIcon className="Arroeicon"/>
+          </IconButton>
+          </ListItem>
+          <Divider className="Divider"/>
+          <ListItem className="Listitems">
+            HOME
+          </ListItem>
+          <Divider className="Divider"/>
+          <ListItem className="Listitems"> 
+            PAGES
+          </ListItem>
+          <Divider className="Divider"/>
+          <ListItem className="Listitems">
+            OUR TEAMS
+          </ListItem>
+          <Divider className="Divider"/>
+          <ListItem className="Listitems">
+            PARTNERS
+          </ListItem>
+          <Divider className="Divider"/>
+          <ListItem className="Listitems">
+            CONTACTS
+          </ListItem>
+          <Divider className="Divider"/>
+        </List>
+      </div>
+    );
+    
     return (
       <div>
         <AppBar style={{ backgroundColor: this.state.color }} elevation={0}>
@@ -60,11 +118,26 @@ export default class Header extends React.Component {
               <FontAwesomeIcon icon={faYoutube} size="xs" />
             </div>
             <div className="icons">
-              <FontAwesomeIcon icon={faBars} size="xs" />
+              <FontAwesomeIcon icon={faBars} size="xs" onClick={this.toggleDrawer('right', true)}/>
             </div>
           </Toolbar>
         </AppBar>
+        <Drawer anchor="right" open={this.state.right} onClose={this.toggleDrawer('right', false)}>
+          <div
+            tabIndex={0}
+            role="button"
+            onClick={this.toggleDrawer('right', false)}
+            onKeyDown={this.toggleDrawer('right', false)}
+          >
+            {sideList}
+          </div>
+        </Drawer>
       </div>
     );
   }
 }
+
+Header.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+export default withStyles(styles)(Header);

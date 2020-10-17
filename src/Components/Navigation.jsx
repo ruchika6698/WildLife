@@ -20,7 +20,10 @@ class Navigation extends React.Component {
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <div className="SaveText">SAVE</div>
+                    <div className="Transparentdiv1"></div>
+                    <div className="animationDiv">
+                    <div className="Transparentdiv2"></div>
+                    <div className="SaveText">SAVE</div></div>
                     <div className="wildCats">WILD CATS</div>
                     <div className="text">
                       Join Wildlife, the world’s leading charity foundation,
@@ -38,7 +41,10 @@ class Navigation extends React.Component {
                   />
 
                   <Carousel.Caption>
-                    <div className="SaveText">MAKE</div>
+                    <div className="Transparentdiv1"></div>
+                   <div className="animationDiv">
+                    <div className="Transparentdiv2"></div>
+                    <div className="SaveText">MAKE</div></div>
                     <div className="wildCats">CATS SAFE</div>
                     <div className="text">
                       We work to help wild cats and other animals worldwide and

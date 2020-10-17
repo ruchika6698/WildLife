@@ -24,10 +24,12 @@
 .select{
     @include select();
     color:grey;
+    transition: 250ms all ease-in-out;
 }
 .name{
     @include select();
     color:$WhiteColor;
+    transition: 250ms all ease-in-out;
 }
 .button{
     background-color:$YellowColor;
@@ -37,6 +39,7 @@
     width:200px;
     font-weight:bold;
     color:$WhiteColor;
+    transition: 250ms all ease-in-out;
 }
 @media screen and (max-width: 1024px) {
     .select{

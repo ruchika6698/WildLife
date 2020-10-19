@@ -42,7 +42,7 @@ class Navigation extends React.Component {
 
                   <Carousel.Caption>
                     <div className="Transparentdiv1"></div>
-                   <div className="animationDiv">
+                    <div className="animationDiv">
                     <div className="Transparentdiv2"></div>
                     <div className="SaveText">MAKE</div></div>
                     <div className="wildCats">CATS SAFE</div>

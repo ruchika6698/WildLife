@@ -14,6 +14,7 @@ export default function Aboutwildlife() {
             />
         </div>
         <div className="AboutDiv">
+            <div className="Transparentdiv1"></div>
             <div className="aboutUs">ABOUT US</div>
             <div className="about">About Wildlife</div>
             <br/>

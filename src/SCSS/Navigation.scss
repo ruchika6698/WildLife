@@ -1,6 +1,7 @@
 @import "./Style.scss";
 
 .SaveText{
+    margin-top:6% !important;
     margin-left:40% !important;
     font-size: 150px;
     line-height: 1.08em;
@@ -17,7 +18,7 @@
     margin-left:52%;
     margin-top:1.5% !important;
     position: relative;
-    animation: mymove 2s infinite;
+    animation: mymove1 2s infinite;
 }
 .Transparentdiv2{
     width:120px;
@@ -27,9 +28,15 @@
     margin-top:6% !important;
     margin-right:5%;
     position: relative;
-    animation: mymove 2s infinite;
+    animation: mymove2 2s infinite;
 }
-@keyframes mymove {
+@keyframes mymove1 {
+  0%   {left: 10px;}
+  25%  {right: 10px;}
+  75%  {left: 10px}
+  100% {right: 10px;}
+}
+@keyframes mymove2 {
   0%   {top: 10px;}
   25%  {bottom: 10px;}
   75%  {top: 10px}

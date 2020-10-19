@@ -24,12 +24,10 @@
 .select{
     @include select();
     color:grey;
-    transition: 250ms all ease-in-out;
 }
 .name{
     @include select();
     color:$WhiteColor;
-    transition: 250ms all ease-in-out;
 }
 .button{
     background-color:$YellowColor;

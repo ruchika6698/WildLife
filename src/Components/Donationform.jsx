@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 export default class Donationform extends React.Component {
   state = {
     opacity: "0",
-    transition: "3s all ease-in-out",
+    transition: "3s all",
   };
 
   listenScrollEvent = (e) => {
     if (window.scrollY > 200) {
-      this.setState({ opacity: "1", transition: "3s all ease-in-out" });
+      this.setState({ opacity: "1", transition: "3s all ease-in-out"});
     } else {
       this.setState({ opacity: "0" });
     }

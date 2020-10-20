@@ -3,19 +3,67 @@ import "../SCSS/Latestnews.scss";
 import Carousel from "react-bootstrap/Carousel";
 
 export default class Latestnews extends React.Component {
+  state = {
+    opacity: "0",
+    transition: "5s all ease-in-out",
+    transform: "translate(-0%, -20%)",
+  };
+
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 2800) {
+      this.setState({
+        opacity: "1",
+        transition: "5s all ease-in-out",
+        transform: "translate(-0%, -20%)",
+      });
+    } else {
+      this.setState({ opacity: "0" });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
+
   render() {
     return (
       <div className="Latestnews">
         <div>
-          <div className="Latesttext">LATEST NEWS</div>
-          <div className="Latestanimal">Latest News</div>
+          <div
+            className="Latesttext"
+            style={{
+              opacity: this.state.opacity,
+              transition: this.state.transition,
+            }}
+            elevation={0}
+          >
+            LATEST NEWS
+          </div>
+          <div
+            className="Latestanimal"
+            style={{
+              opacity: this.state.opacity,
+              transition: this.state.transition,
+            }}
+            elevation={0}
+          >
+            Latest News
+          </div>
         </div>
         <br />
         <br />
         <Carousel>
           <Carousel.Item>
             <div className="pagination">
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 02, 2019</div>
                 <div className="Newstitle">
                   COULD PUMA HUNTING BE HURTING MULE DEER?
@@ -26,7 +74,15 @@ export default class Latestnews extends React.Component {
                   robust mule deer populations for hunters to target.
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 16, 2019</div>
                 <div className="Newstitle">FUNDING JAGUAR CONSERVATION</div>
                 <br />
@@ -35,7 +91,15 @@ export default class Latestnews extends React.Component {
                   It might not seem like the two issues are connected but...
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">AUG 02, 2019</div>
                 <div className="Newstitle">
                   PROTECTING THE AMERICAS’ LARGEST WILD CATS
@@ -51,7 +115,15 @@ export default class Latestnews extends React.Component {
 
           <Carousel.Item>
             <div className="pagination">
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 02, 2019</div>
                 <div className="Newstitle">
                   PROTECTING TIGERS ON THE WATER IN THAILAND
@@ -63,7 +135,15 @@ export default class Latestnews extends React.Component {
                   working with our...
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 16, 2019</div>
                 <div className="Newstitle">SEARCHING FOR SNOW LEOPARDS</div>
                 <br />
@@ -73,7 +153,15 @@ export default class Latestnews extends React.Component {
                   India. However, we...
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">AUG 02, 2019</div>
                 <div className="Newstitle">
                   AN INCREDIBLE FIRST FOR LIONS AND LEOPARDS
@@ -90,7 +178,15 @@ export default class Latestnews extends React.Component {
 
           <Carousel.Item>
             <div className="pagination">
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 02, 2019</div>
                 <div className="Newstitle">
                   MODELING THE GHOST OF THE MOUNTAIN
@@ -102,7 +198,15 @@ export default class Latestnews extends React.Component {
                   South Asia. Still...
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">JUL 16, 2019</div>
                 <div className="Newstitle">
                   WHY SNARES ARE DANGEROUS THREATS TO WILDCATS
@@ -114,7 +218,15 @@ export default class Latestnews extends React.Component {
                   year across Africa’s...
                 </div>
               </div>
-              <div className="Information">
+              <div
+                className="Information"
+                style={{
+                  opacity: this.state.opacity,
+                  transition: this.state.transition,
+                  transform: this.state.transform,
+                }}
+                elevation={0}
+              >
                 <div className="date">AUG 02, 2019</div>
                 <div className="Newstitle">
                   NEPAL’S COMMUNITIES CAN COEXIST WITH FISHING CATS

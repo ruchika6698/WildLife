@@ -10,7 +10,7 @@ export default class Ourprojects extends React.Component {
 
   listenScrollEvent = (e) => {
     if (window.scrollY > 400) {
-      this.setState({ opacity: "1", transition: "3s all ease-in-out" });
+      this.setState({ opacity: "1", transition: "3s all ease-in-out"});
     } else {
       this.setState({ opacity: "0" });
     }
@@ -69,7 +69,7 @@ export default class Ourprojects extends React.Component {
             className="Textinfo"
             style={{
               opacity: this.state.opacity,
-              transition: this.state.transition,
+              transition: this.state.transition
             }}
             elevation={0}
           >

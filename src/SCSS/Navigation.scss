@@ -61,89 +61,102 @@
 }
 @media screen and (max-width: 1024px) {
 	.text{
-        margin-bottom:0%;
+        margin-bottom:0% !important;
     }
     .SaveText{
-        margin-left:45%;
-        font-size: 120px;
-        line-height: 0.5em;
+        margin-left:45% !important;
+        font-size: 120px !important;
+        line-height: 0.5em !important;
     }
     .wildCats{
-        margin-left:41%;
+        margin-left:20% !important;
     }
 }
 @media screen and (max-width: 768px) {
 	.text{
-        margin-left:0%;
+        margin-left:0% !important;
         display:flex;
         justify-content:flex-start;
     }
     .SaveText{
-        margin-left:0%;
-        font-size: 80px;
-        line-height: 0.3em;
+        margin-left:0% !important;
+        margin-top:23% !important;
+        font-size: 80px !important;
+        line-height: 0.3em !important;
     }
     .wildCats{
-        margin-left:0%;
+        margin-left:0% !important;
     }
 }
 @media screen and (max-width: 540px) {
 	.text{
-        font-size: 15px;
+        font-size: 15px !important;
     }
     .SaveText{
-        font-size: 50px;
-        line-height: 0.3em;
+        font-size: 50px !important;
+        line-height: 0.3em !important;
     }
     .wildCats{
-        font-size: 40px;
+        font-size: 40px !important;
     }
 }
 @media screen and (max-width: 414px) {
 	.text{
-        font-size: 10px;
+        font-size: 10px !important;
     }
     .SaveText{
-        font-size: 35px;
-        line-height: 0.4em;
+        font-size: 35px !important;
+        line-height: 0.4em !important;
     }
     .wildCats{
-        font-size: 25px;
+        font-size: 25px !important;
+    }
+    .Transparentdiv2{
+        width:80px;
+        height:80px;
+    }
+    .animationDiv{
+        margin-top:20px;
     }
 }
 @media screen and (max-width: 375px) {
 	.text{
-        font-size: 8px;
+        font-size: 8px !important;
     }
     .SaveText{
-        font-size: 30px;
-        line-height: 0.4em;
+        font-size: 30px !important;
+        line-height: 0.4em !important;
+        margin-top:30px;
     }
     .wildCats{
-        font-size: 20px;
+        font-size: 20px !important;
+    }
+    .Transparentdiv2{
+        width:60px;
+        height:60px;
     }
 }
 @media screen and (max-width: 320px) {
 	.text{
-        font-size: 7px;
+        font-size: 7px !important;
     }
     .SaveText{
-        font-size: 30px;
-        line-height: 0.7em;
+        font-size: 30px !important;
+        line-height: 0.7em !important;
     }
     .wildCats{
-        font-size: 15px;
+        font-size: 15px !important;
     }
 }
 @media screen and (max-width: 280px) {
 	.text{
-        font-size: 5px;
+        font-size: 5px !important;
     }
     .SaveText{
-        font-size: 25px;
-        line-height: 0.7em;
+        font-size: 25px !important;
+        line-height: 0.7em !important;
     }
     .wildCats{
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }

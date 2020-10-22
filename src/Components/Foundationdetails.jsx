@@ -7,22 +7,22 @@ export default function Foundationdetails() {
     <div className="Foundationdetails">
     <div className="Foundationdiv">
         <div className="speciesDiv">
-            <div className="Speciesnumber"><CountUp end={50} duration={15} /></div>
+            <div className="Speciesnumber"><CountUp end={50} duration={25} /></div>
             <br/>
             <div className="Speciesdetail">SAVED SPECIES</div>
         </div>
         <div className="speciesDiv">
-            <div className="Speciesnumber"><CountUp end={92} duration={15} /></div>
+            <div className="Speciesnumber"><CountUp end={92} duration={25} /></div>
             <br/>
             <div className="Speciesdetail">TEAM MEMBERS</div>
         </div>
         <div className="speciesDiv">
-            <div className="Speciesnumber"><CountUp end={340} duration={15} /></div>
+            <div className="Speciesnumber"><CountUp end={340} duration={25} /></div>
             <br/>
             <div className="Speciesdetail">DAILY DONATIONS</div>
         </div>
         <div className="speciesDiv">
-            <div className="Speciesnumber"><CountUp end={4} duration={15} /></div>
+            <div className="Speciesnumber"><CountUp end={4} duration={25} /></div>
             <br/>
             <div className="Speciesdetail">PARTNERS</div>
         </div>

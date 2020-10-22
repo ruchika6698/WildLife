@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 export default class Galary extends React.Component{
   state = {
     opacity: "0",
-    transition: "5s all ease-in-out",
+    transition: "6s all ease-in-out",
   };
 
   listenScrollEvent = (e) => {
     if (window.scrollY > 880) {
-      this.setState({ opacity: "1", transition: "5s all ease-in-out" });
+      this.setState({ opacity: "1", transition: "6s all ease-in-out" });
     } else {
       this.setState({ opacity: "0" });
     }
